@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a1020">
+  <meta name="description" content="Onyekachi Uwasomba — Backend Developer building REST APIs with Node.js, Express, and MongoDB. Explore projects and download the CV.">
+  <title>Onyekachi Uwasomba | Backend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="Onyekachi Uwasomba home">
+        <span class="brand-mark">OU<span>.</span></span>
+        <span class="brand-name">Onyekachi Uwasomba</span>
+      </a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span>
+      </button>
+      <nav id="primary-nav" class="nav-links" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#stack">Stack</a>
+        <a href="#projects">Projects</a>
+        <a href="#approach">Approach</a>
+        <a class="nav-cta" href="https://github.com/onyeka4jc" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+        <a class="nav-cta" href="Onyekachi_Uwasomba_Backend_Developer_CV.pdf" download>Download CV <span aria-hidden="true">↓</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="home" class="hero section-wrap">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot"></span> BACKEND DEVELOPER <span class="eyebrow-divider">/</span> PORTFOLIO</div>
+          <h1>Building the logic<br>behind <span class="gradient-text">great products.</span></h1>
+          <p class="hero-lede">I’m <strong>Onyekachi Uwasomba</strong> — a backend developer focused on building practical APIs, working with data, and turning application requirements into dependable server-side solutions.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+            <a class="button button-quiet" href="https://github.com/onyeka4jc" target="_blank" rel="noreferrer">Visit GitHub <span aria-hidden="true">↗</span></a>
+            <a class="button button-quiet" href="Onyekachi_Uwasomba_Backend_Developer_CV.pdf" download>Download CV <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-note"><span class="note-line"></span><span>Thoughtful APIs. Clear code. Useful outcomes.</span></div>
+        </div>
+        <div class="hero-visual" aria-label="Decorative code illustration">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="visual-glow"></div>
+          <div class="code-window">
+            <div class="window-top"><div class="window-dots"><i></i><i></i><i></i></div><span>api.js</span><span class="window-status">● ready</span></div>
+            <div class="code-body" aria-label="Illustrative JavaScript API snippet">
+              <div><span class="ln">01</span><span class="code-purple">const</span> <span class="code-blue">express</span> = <span class="code-yellow">require</span>(<span class="code-green">'express'</span>);</div>
+              <div><span class="ln">02</span><span class="code-purple">const</span> app = <span class="code-blue">express</span>();</div>
+              <div class="code-empty"><span class="ln">03</span></div>
+              <div><span class="ln">04</span>app.<span class="code-yellow">get</span>(<span class="code-green">'/api/health'</span>, (req, res) <span class="code-purple">=&gt;</span> {</div>
+              <div><span class="ln">05</span>&nbsp;&nbsp;res.<span class="code-yellow">status</span>(<span class="code-orange">200</span>).<span class="code-yellow">json</span>({</div>
+              <div><span class="ln">06</span>&nbsp;&nbsp;&nbsp;&nbsp;status: <span class="code-green">'ok'</span>,</div>
+              <div><span class="ln">07</span>&nbsp;&nbsp;&nbsp;&nbsp;message: <span class="code-green">'API is running'</span></div>
+              <div><span class="ln">08</span>&nbsp;&nbsp;});</div>
+              <div><span class="ln">09</span>});</div>
+              <div class="code-empty"><span class="ln">10</span></div>
+              <div><span class="ln">11</span><span class="code-blue">module</span>.exports = app;</div>
+            </div>
+            <div class="window-bottom"><span><span class="mini-green-dot"></span> REST endpoint</span><span>JSON · HTTP</span></div>
+          </div>
+          <div class="float-card float-card-top"><span class="float-icon">{ }</span><span><strong>Clean APIs</strong><small>Designed for clarity</small></span></div>
+          <div class="float-card float-card-bottom"><span class="float-icon float-icon-blue">↗</span><span><strong>Problem solving</strong><small>From request to response</small></span></div>
+          <div class="hero-orbit-label">BUILD · TEST · IMPROVE</div>
+        </div>
+        <div class="hero-bottomline"><span>01 / INTRODUCTION</span><span>SCROLL TO EXPLORE <span aria-hidden="true">↓</span></span></div>
+      </section>
+
+      <section id="about" class="content-section section-wrap">
+        <div class="section-heading"><span class="section-index">01</span><div><p class="section-kicker">A LITTLE ABOUT ME</p><h2>Good software starts<br>with <span class="gradient-text">good foundations.</span></h2></div></div>
+        <div class="about-grid">
+          <p class="about-lede">I enjoy the work behind the interface: structuring data, designing routes, validating requests, and creating server-side logic that makes applications useful.</p>
+          <div class="about-detail"><p>My backend learning journey has been hands-on. I’ve worked on CRUD services and REST APIs, practised connecting applications to databases, used validation to make incoming data safer, and collaborated on API-focused team work.</p><p>I value code that is understandable, errors that are handled deliberately, and documentation that helps another developer get started without guesswork.</p><a class="text-link" href="https://github.com/onyeka4jc?tab=repositories" target="_blank" rel="noreferrer">Browse repositories <span aria-hidden="true">↗</span></a></div>
+        </div>
+        <div class="principle-strip"><div><span class="principle-number">01</span><strong>Readable by design</strong><p>Clear structure and consistent naming.</p></div><div><span class="principle-number">02</span><strong>Validated at the edges</strong><p>Check inputs before they reach core logic.</p></div><div><span class="principle-number">03</span><strong>Built to be tested</strong><p>Document behaviour and test key paths.</p></div></div>
+      </section>
+
+      <section id="stack" class="stack-section">
+        <div class="section-wrap">
+          <div class="section-heading"><span class="section-index">02</span><div><p class="section-kicker">TOOLS I WORK WITH</p><h2>My backend <span class="gradient-text">toolkit.</span></h2></div></div>
+          <p class="section-intro">The technologies and practices I’ve been using while building and learning backend development.</p>
+          <div class="stack-grid">
+            <article class="stack-card"><div class="stack-card-head"><span class="stack-symbol">JS</span><span class="stack-label">01 / LANGUAGE</span></div><h3>JavaScript</h3><p>Application logic, asynchronous operations, and working with JSON data.</p><div class="skill-meter"><span style="width:78%"></span></div></article>
+            <article class="stack-card"><div class="stack-card-head"><span class="stack-symbol symbol-green">N</span><span class="stack-label">02 / RUNTIME</span></div><h3>Node.js</h3><p>Server-side JavaScript and the foundation for my API projects.</p><div class="skill-meter"><span style="width:76%"></span></div></article>
+            <article class="stack-card"><div class="stack-card-head"><span class="stack-symbol symbol-orange">Ex</span><span class="stack-label">03 / FRAMEWORK</span></div><h3>Express.js</h3><p>Routes, middleware, request handling, and REST endpoints.</p><div class="skill-meter"><span style="width:75%"></span></div></article>
+            <article class="stack-card"><div class="stack-card-head"><span class="stack-symbol symbol-teal">DB</span><span class="stack-label">04 / DATA</span></div><h3>MongoDB & Mongoose</h3><p>Document modelling, database connectivity, and persistence.</p><div class="skill-meter"><span style="width:68%"></span></div></article>
+            <article class="stack-card"><div class="stack-card-head"><span class="stack-symbol symbol-violet">✓</span><span class="stack-label">05 / QUALITY</span></div><h3>Joi validation</h3><p>Defining request schemas and returning predictable validation errors.</p><div class="skill-meter"><span style="width:70%"></span></div></article>
+            <article class="stack-card"><div class="stack-card-head"><span class="stack-symbol symbol-blue">{ }</span><span class="stack-label">06 / WORKFLOW</span></div><h3>Git, GitHub & Postman</h3><p>Version control, collaboration, endpoint checks, and API documentation.</p><div class="skill-meter"><span style="width:75%"></span></div></article>
+          </div>
+          <p class="note-small">Skill bars are visual design elements, not formal proficiency scores.</p>
+        </div>
+      </section>
+
+      <section id="projects" class="content-section section-wrap">
+        <div class="section-heading"><span class="section-index">03</span><div><p class="section-kicker">SELECTED WORK</p><h2>Learning through <span class="gradient-text">building.</span></h2></div></div>
+        <div class="projects-toolbar"><p class="section-intro">A selection of backend work across JavaScript, REST API design, MongoDB persistence, authentication, product-catalog development, and team collaboration. Open each repository to inspect the source.</p><div class="filter-group" role="group" aria-label="Filter projects"><button class="filter-btn active" data-filter="all">All work <span>09</span></button><button class="filter-btn" data-filter="individual">Individual <span>07</span></button><button class="filter-btn" data-filter="team">Team & collaboration <span>02</span></button></div></div>
+        <div class="projects-grid">
+          <article class="project-card" data-kind="individual"><div class="project-meta"><span>LANGUAGE / FOUNDATIONS</span><span class="project-type">INDIVIDUAL</span></div><div class="project-art art-notes"><div class="art-window"><span></span><span></span><span></span><div class="art-lines"><i></i><i></i><i></i><i></i></div></div><div class="art-bubble">JavaScript<span>↗</span></div></div><div class="project-content"><h3>JavaScript Foundations & Practice</h3><p>A JavaScript practice repository demonstrating foundational programming concepts used in server-side development.</p><div class="tag-row"><span>JavaScript</span><span>Foundations</span><span>Problem Solving</span></div><a class="project-link" href="https://github.com/onyeka4jc/week-1-intro.js" target="_blank" rel="noopener noreferrer">View repository <span>↗</span></a></div></article>
+
+          <article class="project-card" data-kind="individual"><div class="project-meta"><span>SERVER / FOUNDATIONS</span><span class="project-type">INDIVIDUAL</span></div><div class="project-art art-blog"><div class="blog-sheet"><span class="sheet-chip">NODE + EXPRESS</span><i></i><i></i><i></i><div class="sheet-foot">SERVER BASICS</div></div><div class="art-orb"></div></div><div class="project-content"><h3>Node.js & Express API Foundations</h3><p>A backend project exploring server-side JavaScript with Node.js and Express as a foundation for building APIs.</p><div class="tag-row"><span>Node.js</span><span>Express</span><span>JavaScript</span></div><a class="project-link" href="https://github.com/onyeka4jc/week2-node-express" target="_blank" rel="noopener noreferrer">View repository <span>↗</span></a></div></article>
+
+          <article class="project-card" data-kind="individual"><div class="project-meta"><span>REST API / CRUD</span><span class="project-type">INDIVIDUAL</span></div><div class="project-art art-todo"><div class="todo-panel"><div class="todo-title"><span>✓</span> TASKS</div><div class="todo-row"><b>✓</b><i></i></div><div class="todo-row"><b>✓</b><i></i></div><div class="todo-row"><b></b><i></i></div><div class="todo-row"><b></b><i></i></div></div><div class="art-plus">+</div></div><div class="project-content"><h3>Task Management CRUD API</h3><p>A task-management REST API supporting create, read, update, and delete operations, with request validation and middleware.</p><div class="tag-row"><span>Node.js</span><span>Express</span><span>Joi</span><span>CRUD</span></div><a class="project-link" href="https://github.com/onyeka4jc/week3-crud-todo-api" target="_blank" rel="noopener noreferrer">View repository <span>↗</span></a></div></article>
+
+          <article class="project-card" data-kind="individual"><div class="project-meta"><span>DATABASE / MONGODB</span><span class="project-type">INDIVIDUAL</span></div><div class="project-art art-todo"><div class="todo-panel"><div class="todo-title"><span>✓</span> TODO DOCUMENTS</div><div class="todo-row"><b>✓</b><i></i></div><div class="todo-row"><b>✓</b><i></i></div><div class="todo-row"><b></b><i></i></div><div class="todo-row"><b></b><i></i></div></div><div class="art-bubble">MONGOOSE<span>↗</span></div></div><div class="project-content"><h3>MongoDB-Powered Todo API</h3><p>Moved Todo CRUD to persistent storage with MongoDB Atlas through Mongoose. The schema requires a title and defaults completed to false; routes use async/await and support completion filtering, with Postman checks, seeded records, persistence verification, and environment-variable setup for Render deployment.</p><div class="tag-row"><span>MongoDB Atlas</span><span>Mongoose</span><span>Async/Await</span><span>Filtering</span></div><a class="project-link" href="https://github.com/onyeka4jc/mongo-migrate-todo-api" target="_blank" rel="noopener noreferrer">View repository <span>↗</span></a></div></article>
+
+          <article class="project-card" data-kind="individual"><div class="project-meta"><span>REST API / CONTENT</span><span class="project-type">INDIVIDUAL</span></div><div class="project-art art-blog"><div class="blog-sheet"><span class="sheet-chip">BLOG API</span><i></i><i></i><i></i><div class="sheet-foot">CONTENT RESOURCES</div></div><div class="art-orb"></div></div><div class="project-content"><h3>Blog REST API</h3><p>A database-backed blog API built with Node.js, Express, MongoDB, and Mongoose to manage blog content through REST endpoints.</p><div class="tag-row"><span>Node.js</span><span>Express</span><span>MongoDB</span><span>Mongoose</span></div><a class="project-link" href="https://github.com/onyeka4jc/week8-blog-api" target="_blank" rel="noopener noreferrer">View repository <span>↗</span></a></div></article>
+
+          <article class="project-card" data-kind="individual"><div class="project-meta"><span>AUTH / ACCESS CONTROL</span><span class="project-type">INDIVIDUAL</span></div><div class="project-art art-notes"><div class="art-window"><span></span><span></span><span></span><div class="art-lines"><i></i><i></i><i></i><i></i></div></div><div class="art-bubble">JWT<span>↗</span></div></div><div class="project-content"><h3>Authenticated Blog API</h3><p>A blog API featuring JWT authentication and article-ownership protection, demonstrating authentication and authorization in a backend service.</p><div class="tag-row"><span>Node.js</span><span>Express</span><span>JWT</span><span>Authorization</span></div><a class="project-link" href="https://github.com/onyeka4jc/week9-authenticated-blog-api" target="_blank" rel="noopener noreferrer">View repository <span>↗</span></a></div></article>
+
+          <article class="project-card" data-kind="individual"><div class="project-meta"><span>E-COMMERCE / API</span><span class="project-type">INDIVIDUAL REPOSITORY</span></div><div class="project-art art-blog"><div class="blog-sheet"><span class="sheet-chip">PRODUCTS</span><i></i><i></i><i></i><div class="sheet-foot">CATALOG API</div></div><div class="art-orb"></div></div><div class="project-content"><h3>E-commerce Product Catalog API</h3><p>A product-catalog API project published under your GitHub account. Review the repository for the current implementation, endpoints, and setup instructions.</p><div class="tag-row"><span>JavaScript</span><span>API Development</span><span>Product Catalog</span></div><a class="project-link" href="https://github.com/onyeka4jc/E-commerce_Product_Catalog_API" target="_blank" rel="noopener noreferrer">View repository <span>↗</span></a></div></article>
+
+          <article class="project-card" data-kind="team"><div class="project-meta"><span>CAPSTONE / TEAM PROJECT</span><span class="project-type project-type-team">TEAM CAPSTONE</span></div><div class="project-art art-expense"><div class="expense-chart"><div class="chart-head"><span>EXPENSES</span><b>↗</b></div><div class="chart-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="chart-baseline"></div></div><div class="art-coin">₦</div></div><div class="project-content"><h3>Expense Tracker API — Group 3B</h3><p>A collaborative BeTechified capstone project. The shared repository provides the home for Group 3B's team work and project documentation.</p><div class="tag-row"><span>Team Project</span><span>Backend API</span><span>GitHub</span><span>Collaboration</span></div><a class="project-link" href="https://github.com/Boaz-ITGUY/BeTechified-capstone-project-group3B" target="_blank" rel="noopener noreferrer">View group repository <span>↗</span></a></div></article>
+
+          <article class="project-card" data-kind="team"><div class="project-meta"><span>COLLABORATION / PULL REQUEST</span><span class="project-type project-type-team">COLLABORATION / PR</span></div><div class="project-art art-todo"><div class="todo-panel"><div class="todo-title"><span>✓</span> CONTROLLER</div><div class="todo-row"><b>✓</b><i></i></div><div class="todo-row"><b>✓</b><i></i></div><div class="todo-row"><b>✓</b><i></i></div><div class="todo-row"><b></b><i></i></div></div><div class="art-plus">+</div></div><div class="project-content"><h3>Product Controller Development</h3><p>Contributed product controller functionality to BD-Adv-Group-2’s collaborative E-commerce Product Catalog API project. The contribution was submitted through a pull request titled “Add product controller functions,” reflecting experience with collaborative development and GitHub-based code review.</p><div class="tag-row"><span>Pull Request</span><span>Product Catalog</span><span>Team Contribution</span></div><a class="project-link" href="https://github.com/BD-Adv-Group-2/E-commerce_Product_Catalog_API" target="_blank" rel="noopener noreferrer">View collaboration repository <span>↗</span></a></div></article>
+        </div>
+        <div class="repo-callout"><div><span class="section-kicker">FOLLOW THE WORK</span><h3>Explore the repositories.</h3><p>Review source code, commit history, and collaborative contributions on GitHub.</p></div><a class="button button-primary" href="https://github.com/onyeka4jc?tab=repositories" target="_blank" rel="noopener noreferrer">Open GitHub repositories <span aria-hidden="true">↗</span></a></div>
+        <p class="note-small">For the latest source code, setup instructions, and implementation details, visit each linked GitHub repository and its README.</p>
+      </section>
+
+      <section id="approach" class="approach-section">
+        <div class="section-wrap approach-layout"><div><div class="section-heading"><span class="section-index">04</span><div><p class="section-kicker">HOW I BUILD</p><h2>Small steps.<br><span class="gradient-text">Solid foundations.</span></h2></div></div><p class="section-intro">A practical workflow keeps an API easier to understand, test, and extend.</p></div><div class="workflow-list"><div class="workflow-item"><span class="workflow-number">01</span><div><h3>Understand the requirement</h3><p>Identify resources, actions, expected inputs, and error cases before creating routes.</p></div><span class="workflow-arrow">↗</span></div><div class="workflow-item"><span class="workflow-number">02</span><div><h3>Design the API</h3><p>Organise endpoints, response shapes, data models, and middleware consistently.</p></div><span class="workflow-arrow">↗</span></div><div class="workflow-item"><span class="workflow-number">03</span><div><h3>Validate and test</h3><p>Check input data and exercise success and failure paths with an API client.</p></div><span class="workflow-arrow">↗</span></div><div class="workflow-item"><span class="workflow-number">04</span><div><h3>Document and improve</h3><p>Explain how to run the application and record changes in version control.</p></div><span class="workflow-arrow">↗</span></div></div></div>
+      </section>
+
+      <section id="contact" class="contact-section section-wrap"><div class="contact-card"><div class="contact-stamp">LET’S BUILD<br>SOMETHING USEFUL<span>↗</span></div><p class="section-kicker">GET IN TOUCH</p><h2>Have a backend problem<br>to <span class="gradient-text">solve?</span></h2><p class="contact-copy">I’m keen to keep learning, collaborate with other developers, and build practical backend solutions. Reach me by email or explore my work on GitHub.</p><div class="hero-actions"><a class="button button-primary" href="mailto:onyeka4jc@gmail.com">Email Onyekachi <span aria-hidden="true">↗</span></a><a class="button button-quiet" href="https://github.com/onyeka4jc" target="_blank" rel="noopener noreferrer">Connect on GitHub <span aria-hidden="true">↗</span></a><a class="button button-quiet" href="Onyekachi_Uwasomba_Backend_Developer_CV.pdf" download>Download CV <span aria-hidden="true">↓</span></a></div><p class="contact-copy"><a class="text-link" href="mailto:onyeka4jc@gmail.com">onyeka4jc@gmail.com</a></p></div></section>
+    </main>
+
+    <footer class="footer section-wrap"><a class="brand" href="#home"><span class="brand-mark">OU<span>.</span></span><span class="brand-name">Onyekachi Uwasomba</span></a><span class="footer-copy">Designed with intent. Built with curiosity.</span><span class="footer-right">© <span id="year"></span> ONYEKACHI UWASOMBA</span></footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
